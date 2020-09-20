@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primera clase javascript</title>
+</head>
+<body>
+    <script >
+        document.write("hola soy java scrip :D");
+        console.log("hola soy javascrip mas fachero");
+        const edad_permi=18;
+        var nombre_completo="lopez gustavo";
+        var edad=32;
+        var altura=1.68;
+        var casado=false;
+        var edad=prompt("dame tu edad"," edad");
+        var nombre_completo=prompt("dame tu nombre");
+        //concatenar
+        console.log("hola"+nombre_completo);
+        // ES6 + ES2017
+        console.log(`HOLA MI NOMBRE ES ${nombre_completo} estoy casado ${casado} ${edad}`);
+        alert("practicando");
+       //condicionales
+       //if(edad >=edad_permi ){console.log(`bienvenido: ${nombre_completo}`);} else{ alert("no se permiten menores");}
+
+       if(edad>18 && edad<30){console.log("tenes entre 18 y 30 años");}
+       else if(edad>30 && edad<60){console.log("tenes entre 30 y 60");}
+       else if(edad>60 && edad<90){console.log("tenes entre 60 y 90");}
+       else{console.log("menor de 19 y mayor a 90 años");}
+    </script>
+</body>
+</html>
